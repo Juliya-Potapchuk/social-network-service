@@ -1,0 +1,16 @@
+.page-not-found {
+  color: black;
+  line-height: 13px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 72px;
+
+  @media screen and (max-width: 720px) {
+    font-size: 35px;
+  }
+
+  @media screen and (max-width: 400px) {
+    font-size: 26px;
+  }
+}
+

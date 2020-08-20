@@ -1,0 +1,47 @@
+.wrapper-settings-block {
+  width: 100%;
+  margin-top: 15px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 43px 27px 35px 35px;
+  border-radius: 40px;
+  padding: 10px 0 35px 0;
+  margin-bottom: 24px;
+  background: #ffffff;
+  box-shadow: 10px 4px 21px #555555c9;
+  @media screen and (max-width: 720px) {
+    width: 90%;
+  }
+
+  .h2 {
+    font-size: 25px;
+    margin-bottom: 50px;
+    margin-top: 8px;
+    color: #555;
+    text-decoration: underline;
+    @media screen and (max-width: 720px) {
+      font-size: 19px;
+      margin-bottom: 18px;
+    }
+  }
+
+  form {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper-inputs-set-block{
+    width: 100%;
+    max-width: 403px;
+    margin-bottom: 10px;
+    @media screen and (max-width: 720px) {
+      width: 80%;
+    }
+  }
+}
+

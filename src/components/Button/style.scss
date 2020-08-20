@@ -1,0 +1,31 @@
+.button-submit {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  height: 42px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #555;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+  transition: 0.5s;
+  margin-top: 19px;
+  @media screen and (max-width: 720px) {
+    margin-top: 10px;
+  }
+  @media screen and (max-width: 540px) {
+    font-size: 15px;
+    height: 31px;
+    margin-top: 5px;
+  }
+
+  &:hover {
+    background: #777575;
+  }
+  &:active {
+    background: #3c3a3a;
+  }
+}

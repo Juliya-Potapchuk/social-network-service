@@ -1,0 +1,72 @@
+.wrapper-sign-in-page {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  max-width: 868px;
+
+  .text-sign-in-welcome {
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    position: relative;
+    @media screen and (max-width: 720px) {
+      max-width: 221px;
+    }
+    @media screen and (max-width: 580px) {
+      display: none;
+    }
+    &:hover .text-1 {
+      margin-bottom: 24px;
+      font-size: 30px;
+      @media screen and (max-width: 920px) {
+        font-size: 23px;
+        left: 55px;
+      }
+      @media screen and (max-width: 720px) {
+        font-size: 17px;
+        left: 39px;
+      }
+    }
+  }
+
+  .text-1 {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 21px;
+    font-weight: bold;
+    font-size: 28px;
+    @media screen and (max-width: 920px) {
+      font-size: 21px;
+      left: 57px;
+    }
+    @media screen and (max-width: 720px) {
+      font-size: 15px;
+      left: 37px;
+    }
+  }
+
+  .text-2 {
+    margin: 0;
+    font-size: 26px;
+    margin-top: 51px;
+    @media screen and (max-width: 920px) {
+      margin-top: 41px;
+      font-size: 20px;
+    }
+    @media screen and (max-width: 720px) {
+      margin-top: 32px;
+      font-size: 16px;
+    }
+    span {
+      text-decoration: underline;
+    }
+  }
+}
